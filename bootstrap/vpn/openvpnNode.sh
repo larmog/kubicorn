@@ -25,3 +25,4 @@ echo ${OPENVPN_CONF} > /etc/openvpn/clients.conf
 
 systemctl start openvpn@clients
 systemctl enable openvpn@clients
+
